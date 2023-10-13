@@ -1,0 +1,53 @@
+/* 
+CSS
+LESS 
+SASS 
+SCSS  
+*/
+/* LESS 
+@primary: pink;
+button {
+    background: @primary;
+}
+a {
+    color: @primary;
+}
+*/
+/* SASS
+$primary: blue;
+button{
+    background: $primary;
+}
+a {
+    color: $primary;
+}
+*/
+/* SCSS
+@mixin button {
+    background: blue,
+    color: white,
+    padding: 6px 12px,
+}
+button
+    @include button
+a
+    @include button
+*/
+/* SASS
+@mixin button {
+    background: blue,
+    color: white,
+    padding: 6px 12px,
+}
+button {
+    @include button;
+}
+a {
+    @include button;
+}
+*/
+
+
+
+
+
